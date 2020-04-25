@@ -17,32 +17,32 @@ public class Author {
 	
 	@Id
 	@Column(name="authorid")
-	private int id;
+	private int authorid;
 	@Column(name="authorname")
-	private String name;
+	private String authorname;
 	@Override
 	public String toString() {
-		return "Author [id=" + id + ", name=" + name + "]";
+		return "Author [authorid=" + authorid + ", authorname=" + authorname + "]";
 	}
 	public Author() {
 		
 	}
-	public Author(int id, String name) {
+	public Author(int authorid, String authorname) {
 		super();
-		this.id = id;
-		this.name = name;
+		this.authorid = authorid;
+		this.authorname = authorname;
 	}
 	public int getId() {
-		return id;
+		return authorid;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int authorid) {
+		this.authorid = authorid;
 	}
 	public String getName() {
-		return name;
+		return authorname;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String authorname) {
+		this.authorname = authorname;
 	}
 	
 	
