@@ -13,14 +13,14 @@ public class Author {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	private String firstName;
-	private String middleName;
-	private String lastName;
+	private String fName;
+	private String mName;
+	private String lName;
 	private long phoneNo;
 	@Override
 	public String toString() {
-		return "Author [authorId=" + authorId + ", firstName=" + firstName + ", middleName=" + middleName
-				+ ", lastName=" + lastName + ", phoneNo=" + phoneNo + "]";
+		return "Author [authorId=" + authorId + ", fName=" + fName + ", mName=" + mName
+				+ ", lName=" + lName + ", phoneNo=" + phoneNo + "]";
 	}
 	public int getAuthorId() {
 		return authorId;
@@ -28,23 +28,23 @@ public class Author {
 	public void setAuthorId(int authorId) {
 		this.authorId = authorId;
 	}
-	public String getFirstName() {
-		return firstName;
+	public String getFName() {
+		return fName;
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFName(String fName) {
+		this.fName = fName;
 	}
-	public String getMiddleName() {
-		return middleName;
+	public String getMName() {
+		return mName;
 	}
-	public void setMiddleName(String middleName) {
-		this.middleName = middleName;
+	public void setMName(String mName) {
+		this.mName = mName;
 	}
-	public String getLastName() {
-		return lastName;
+	public String getLName() {
+		return lName;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLName(String lName) {
+		this.lName = lName;
 	}
 	public long getPhoneNo() {
 		return phoneNo;
@@ -52,12 +52,12 @@ public class Author {
 	public void setPhoneNo(long phoneNo) {
 		this.phoneNo = phoneNo;
 	}
-	public Author(int authorId, String firstName, String middleName, String lastName, long phoneNo) {
+	public Author(int authorId, String fName, String mName, String lName, long phoneNo) {
 		super();
 		this.authorId = authorId;
-		this.firstName = firstName;
-		this.middleName = middleName;
-		this.lastName = lastName;
+		this.fName = fName;
+		this.mName = mName;
+		this.lName = lName;
 		this.phoneNo = phoneNo;
 	}
 	
