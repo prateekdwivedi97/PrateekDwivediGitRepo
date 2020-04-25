@@ -32,16 +32,16 @@ public class Author {
 		this.authorid = authorid;
 		this.authorname = authorname;
 	}
-	public int getId() {
+	public int getAuthorid() {
 		return authorid;
 	}
-	public void setId(int authorid) {
+	public void setAuthorid(int authorid) {
 		this.authorid = authorid;
 	}
-	public String getName() {
+	public String getAuthorname() {
 		return authorname;
 	}
-	public void setName(String authorname) {
+	public void setAuthorname(String authorname) {
 		this.authorname = authorname;
 	}
 	
